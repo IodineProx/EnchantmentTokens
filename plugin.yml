@@ -1,0 +1,15 @@
+name: EnchantmentTokens
+version: 2.0
+author: IodineProx
+main: com.iodineprox.enchantmenttokens.EnchantmentTokens
+api-version: 1.16
+commands:
+  enchantmenttoken:
+    description: Gives you an Enchantment Token.
+    usage: /<command>
+  ultraenchantmenttoken:
+    description: Gives you an Ultra Enchantment Token.
+    usage: /<command>
+  rainbowenchantmenttoken:
+    description: Gives you an Rainbow Enchantment Token.
+    usage: /<command>
