@@ -6,8 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class Commands implements CommandExecutor {
-
+public class UltraCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {
@@ -15,8 +14,8 @@ public class Commands implements CommandExecutor {
             return true;
         }
         Player player = (Player) sender;
-        if (cmd.getName().equalsIgnoreCase("enchantmenttoken")) {
-            player.getInventory().addItem(ItemManager.enchantmenttoken);
+        if (cmd.getName().equalsIgnoreCase("ultraenchantmenttoken")) {
+            player.getInventory().addItem(ItemManager.ultraenchantmenttoken);
         }
         return true;
     }
